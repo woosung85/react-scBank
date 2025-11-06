@@ -1,9 +1,27 @@
 // UI 컴포넌트
 
-export { Button } from "./ui/button";
-export { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./ui/card";
+export { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "./ui/accordion";
+export {
+  AlertDialog,
+  AlertDialogTrigger,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogFooter,
+  AlertDialogTitle,
+  AlertDialogDescription,
+  AlertDialogAction,
+  AlertDialogCancel,
+} from "./ui/alert-dialog";
+export { AspectRatio } from "./ui/aspect-ratio";
 export { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 export { Alert, AlertTitle, AlertDescription } from "./ui/alert";
+export { Badge } from "./ui/badge";
+export { Button } from "./ui/button";
+export { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "./ui/breadcrumb";
+export { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./ui/card";
+
+export { Calendar, CalendarDayButton } from "./ui/calendar";
+export { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 
 export {
   Dialog,
@@ -63,3 +81,5 @@ export {
 } from "./ui/select";
 
 export { Textarea } from "./ui/textarea";
+
+export { ButtonGroup, ButtonGroupText, ButtonGroupSeparator } from "./ui/button-group";
